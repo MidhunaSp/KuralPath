@@ -20,9 +20,9 @@
 ## 🏗️ Tech Stack
 
 * **Frontend:** React (Vite)
-* **Backend:** Base44 API
-* **Database:** Base44 Entity (Kural)
-* **Styling:** CSS / Tailwind (if used)
+* **Backend:** json file(backend url)
+* **Database:** Entity (KuralData)
+* **Styling:** CSS / Tailwind 
 
 ---
 
