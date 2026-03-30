@@ -1,0 +1,48 @@
+{
+  "name": "UserProgress",
+  "type": "object",
+  "properties": {
+    "user_email": {
+      "type": "string",
+      "description": "Email of the user"
+    },
+    "last_read_index": {
+      "type": "integer",
+      "description": "Last kural number read by user"
+    },
+    "bookmarked_kurals": {
+      "type": "array",
+      "items": {
+        "type": "integer"
+      },
+      "description": "Array of bookmarked kural numbers"
+    },
+    "read_dates": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "kural_number": {
+            "type": "integer"
+          },
+          "date": {
+            "type": "string"
+          }
+        }
+      },
+      "description": "History of kural reads with dates"
+    },
+    "streak_days": {
+      "type": "integer",
+      "description": "Current reading streak in days"
+    },
+    "last_read_date": {
+      "type": "string",
+      "description": "Last date user read a kural"
+    }
+  },
+  "required": [
+    "user_email",
+    "last_read_index"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Kural",
+  "type": "object",
+  "properties": {
+    "number": {
+      "type": "integer",
+      "description": "Kural number (1-1330)"
+    },
+    "chapter": {
+      "type": "string",
+      "description": "Chapter name in Tamil"
+    },
+    "section": {
+      "type": "string",
+      "description": "Section name in Tamil (\u0b85\u0bb1\u0ba4\u0bcd\u0ba4\u0bc1\u0baa\u0bcd\u0baa\u0bbe\u0bb2\u0bcd, \u0baa\u0bca\u0bb0\u0bc1\u0b9f\u0bcd\u0baa\u0bbe\u0bb2\u0bcd, \u0b87\u0ba9\u0bcd\u0baa\u0ba4\u0bcd\u0ba4\u0bc1\u0baa\u0bcd\u0baa\u0bbe\u0bb2\u0bcd)"
+    },
+    "kural_tamil": {
+      "type": "string",
+      "description": "Kural text in Tamil"
+    },
+    "explanation_tamil": {
+      "type": "string",
+      "description": "Explanation in Tamil"
+    },
+    "explanation_english": {
+      "type": "string",
+      "description": "Explanation in English"
+    }
+  },
+  "required": [
+    "number",
+    "kural_tamil",
+    "explanation_tamil"
+  ]
+}
