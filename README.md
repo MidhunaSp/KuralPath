@@ -103,18 +103,18 @@ http://localhost:5173
 
 <img width="1894" height="932" alt="image" src="https://github.com/user-attachments/assets/519bf7ad-ecba-4c4e-b2c0-45001bc1a2eb" />
 
----
+
 
 ## 📄 License
 
 This project is for educational and learning purposes.
 
----
+
 
 ## Contributed with ❤️ 
 
 **S P Midhuna Varshini**
 
----
+
 
 ---
